@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="calc_history_text">#A0A0A0</color>
+    <color name="calc_result_text">#FBFBFB</color>
+
+    <color name="calc_btn_text">#FFF0F0F0</color>
+    <color name="calc_digit_text">#FFFEFEFE</color>
+    <color name="calc_equal_text">#091977</color>
+    <color name="calc_btn_stroke">#FF555555</color>
+    <color name="calc_btn_digit">#383838</color>
+    <color name="calc_btn_operation">#2F2F2F</color>
+    <color name="calc_btn_equal">#4CC1FE</color>
+
+    <color name="rate_bg_color">#F3C7C7</color>
+    <color name="rate_bg_right_color">#C7D1F3</color>
+
+    <color name="_0">#CCC0B3</color>
+    <color name="_2">#EEE4DA</color>
+    <color name="_4">#EDE0C8</color>
+    <color name="_8">#F2B179</color>
+    <color name="_16">#F59563</color>
+    <color name="_32">#F67C5F</color>
+    <color name="_64">#F65E3B</color>
+    <color name="_128">#EDCF72</color>
+    <color name="_256">#EDCC61</color>
+    <color name="_512">#EDC850</color>
+    <color name="_1024">#EDC53F</color>
+    <color name="_2048">#EDC22E</color>
+
+    <color name="color_game_over">#EEE4DA</color>
+    <color name="color_value_light">#F9F6F2</color>
+    <color name="color_value_dark">#776E65</color>
+
+
+<!--    2    - #EEE4DA-->
+<!--    4    - #EDE0C8-->
+<!--    8    - #F2B179-->
+<!--    16   - #F59563-->
+<!--    32   - #F67C5F-->
+<!--    64   - #F65E3B-->
+<!--    128  - #EDCF72-->
+<!--    256  - #EDCC61-->
+<!--    512  - #EDC850-->
+<!--    1024 - #EDC53F-->
+<!--    2048 - #EDC22E-->
+</resources>

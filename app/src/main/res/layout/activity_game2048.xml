@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_2048"
+    tools:context=".Game2048Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="#ECCB5D"
+            android:gravity="center"
+            android:text="2048"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_score"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Score\n69,9k"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_best_score"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Best\n69,9k"
+                    />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/newButton"
+                    android:text="new" />
+
+                <Button
+                    android:id="@+id/undoButton"
+                    android:text="undo" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:background="#A49580">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/cell00"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+            <TextView
+                android:id="@+id/cell01"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+            <TextView
+                android:id="@+id/cell02"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+            <TextView
+                android:id="@+id/cell03"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/cell10"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+            <TextView
+                android:id="@+id/cell11"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+            <TextView
+                android:id="@+id/cell12"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+            <TextView
+                android:id="@+id/cell13"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/cell20"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+            <TextView
+                android:id="@+id/cell21"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+            <TextView
+                android:id="@+id/cell22"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+            <TextView
+                android:id="@+id/cell23"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/cell30"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+            <TextView
+                android:id="@+id/cell31"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+            <TextView
+                android:id="@+id/cell32"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+            <TextView
+                android:id="@+id/cell33"
+                style="@style/Cell_2"
+                tools:text="2"
+                />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

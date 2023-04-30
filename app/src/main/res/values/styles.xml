@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonBase" parent="TextAppearance.AppCompat">
+        <item name="android:background">@drawable/calc_btn_shape</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/calc_btn_text</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+
+    <style name="ButtonOperation" parent="ButtonBase">
+        <item name="android:background">@drawable/calc_btn_shape</item>
+        <item name="android:textColor">@color/calc_btn_text</item>
+    </style>
+
+    <style name="ButtonDigit" parent="ButtonBase">
+        <item name="android:background">@drawable/calc_digit_shape</item>
+        <item name="android:textColor">@color/calc_digit_text</item>
+    </style>
+
+    <style name="ButtonEqual" parent="ButtonBase">
+        <item name="android:background">@drawable/calc_equal_shape</item>
+        <item name="android:textColor">@color/calc_equal_text</item>
+    </style>
+
+    <style name="CellBase">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Cell_0" parent="CellBase">
+        <item name="android:background">@color/_0</item>
+        <item name="android:textColor">@color/_0</item>
+    </style>
+
+    <style name="Cell_2" parent="CellBase">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/color_value_dark</item>
+        <item name="android:background">@color/_2</item>
+    </style>
+
+    <style name="Cell_4" parent="CellBase">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/color_value_dark</item>
+        <item name="android:background">@color/_4</item>
+    </style>
+
+    <style name="Cell_8" parent="CellBase">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/color_value_light</item>
+        <item name="android:background">@color/_8</item>
+    </style>
+
+    <style name="Cell_16" parent="CellBase">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/color_value_light</item>
+        <item name="android:background">@color/_16</item>
+    </style>
+
+    <style name="Cell_32" parent="CellBase">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/color_value_light</item>
+        <item name="android:background">@color/_32</item>
+    </style>
+
+    <style name="Cell_64" parent="CellBase">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/color_value_light</item>
+        <item name="android:background">@color/_64</item>
+    </style>
+
+    <style name="Cell_128" parent="CellBase">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/color_value_light</item>
+        <item name="android:background">@color/_128</item>
+    </style>
+
+    <style name="Cell_256" parent="CellBase">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/color_value_light</item>
+        <item name="android:background">@color/_256</item>
+    </style>
+
+    <style name="Cell_512" parent="CellBase">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/color_value_light</item>
+        <item name="android:background">@color/_512</item>
+    </style>
+
+    <style name="Cell_1024" parent="CellBase">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/color_value_light</item>
+        <item name="android:background">@color/_1024</item>
+    </style>
+
+    <style name="Cell_2048" parent="CellBase">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/color_value_light</item>
+        <item name="android:background">@color/_2048</item>
+    </style>
+
+</resources>

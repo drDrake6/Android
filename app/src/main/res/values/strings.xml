@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="tv_hello_text">Hello World!</string>
+    <string name="btn_calc_text">Calculators</string>
+    <string name="btn_exit_text">Exit</string>
+    <string name="btn_percent_text">%</string>
+    <string name="btn_CE_text">CE</string>
+    <string name="btn_C_text">C</string>
+    <string name="btn_Backspace_text">\u232B</string>
+    <string name="btn_divideByOne_text">\u215F\u2093</string>
+    <string name="btn_square_text">X\u00B2</string>
+    <string name="btn_sqrt_text">\u221A\u2093</string>
+    <string name="btn_divide_text">\u00F7</string>
+    <!--===========================================================-->
+    <string name="btn_7_text">7</string>
+    <string name="btn_8_text">8</string>
+    <string name="btn_9_text">9</string>
+    <string name="btn_multiply_text">\u00D7</string>
+    <string name="btn_4_text">4</string>
+    <string name="btn_5_text">5</string>
+    <string name="btn_6_text">6</string>
+    <string name="btn_minus_text">@string/minus_sign</string>
+    <!--===========================================================-->
+    <string name="btn_1_text">1</string>
+    <string name="btn_2_text">2</string>
+    <string name="btn_3_text">3</string>
+    <string name="btn_plus_text">\u002B</string>
+    <string name="btn_negate_text">\u207A\u2215\u208B</string>
+    <string name="btn_0_text">0</string>
+    <string name="btn_coma_text">,</string>
+    <string name="btn_equal_text">=</string>
+
+    <string name="btn_2048_text">Game 2048</string>
+    <string name="score_text">Score\n%d</string>
+    <string name="best_score_text">Best\n%d</string>
+
+    <string name="minus_sign">\u2212</string>
+    <string name="calc_divide_by_zero">Cannot divide by zero</string>
+    <string name="too_big_number">Number is too big</string>
+
+    <string name="rates_text">Currency rates</string>
+    <string name="rates_title">Currency rates</string>
+
+    <string name="chat_text">Chat</string>
+    <string name="chat_name_title">User name:</string>
+    <string name="chat_default_user">Жуткий Жук</string>
+    <string name="chat_message_title">Msg:</string>
+    <string name="channel_name">Chat</string>
+    <string name="channel_description">Chat Channel</string>
+
+</resources>
